@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #3333;
+}
+.rooms-conatiner {
+  position: relative;
+  overflow-y: auto;
+  width: 100%;
+  max-width: 400px;
+  max-height: 75vh;
+}
+.rooms-conatiner::-webkit-scrollbar {
+  width: 5px;
+  background: var(--background-blue-light);
+}
+.rooms-conatiner::-webkit-scrollbar-thumb {
+  background: var(--border-blue-light);
+}
+.close-icon {
+  position: absolute;
+  left: 25px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.btn {
+  cursor: pointer;
+  width: 95%;
+  max-width: 400px;
+  height: 40px;
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid var(--border-blue-light);
+  font-size: 16px;
+  font-weight: 700;
+}
+.add-btn {
+  color: var(--blue);
+  background: var(--background-blue-light);
+}
+.search-btn {
+  background: var(--blue);
+  color: #ffff;
+  position: fixed;
+  bottom: 20px;
+}

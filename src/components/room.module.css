@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin: 15px;
+    border-bottom: 1px solid #3333;
+    max-width: 400px;
+    padding-bottom: 15px;
+}
+.container >div {
+    width: 100%;
+}
+.room-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    font-weight: 900px;
+    font-size: large;
+}
+.room-title span{
+ color: var(--red);
+ cursor: pointer;
+}
+.section-container{
+    display: flex;
+    float: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    padding: 10px 0;
+    font-size: medium;
+}
+.age-child-container{
+   
+    display: flex;
+    flex-direction: column;
+   
+    align-items: flex-end;
+}
+.controll-btn-container{
+ width: 27%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.controll-btn-container button{
+    border: 1px solid var(--border-blue-light);
+    background: var(--background-blue-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.controll-btn{
+    color: var(--blue);
+}
